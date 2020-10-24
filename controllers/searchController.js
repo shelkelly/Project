@@ -4,6 +4,7 @@ var router = express.Router();
 
 var search = require("../models/search.js");
 
+//HANDLEBARS OBJECT
 router.get("/", function(req, res) {
     search.all(function(data) {
         var hbsObject = {
