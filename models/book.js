@@ -11,5 +11,6 @@ var Book = sequelize.define("book", {
 
 
   Book.sync();
+  
 // Book model is available for other files
   module.exports = Book;
