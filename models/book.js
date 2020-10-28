@@ -1,16 +1,18 @@
 // References the standard library
-var Sequelize = require("sequelize");
+//var Sequelize = require("sequelize");
 //Connection to the the DB
-var sequelize = require("../config/connection.js");
+//var sequelize = require("../config/connection.js");
 
 //Book matches the DB
+module.exports = function(sequelize, DataTypes){
 var Book = sequelize.define("book", {
-    title: Sequelize.STRING,
-    author: Sequelize.STRING,
+    title: DataTypes.STRING,
+    author: DataTypes.STRING,
+    small_image_url: DataTypes.STRING
   });
 
-
-  Book.sync();
-  
+return Book
+  //Book.sync();
+}   
 // Book model is available for other files
-  module.exports = Book;
+  // module.exports = Book;
