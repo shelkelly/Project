@@ -2,7 +2,7 @@ var express = require("express");
 
 var router = express.Router();
 
-var search = require("../models/search.js");
+var search = require("../models/book.js");
 
 //HANDLEBARS OBJECT
 router.get("/", function(req, res) {
