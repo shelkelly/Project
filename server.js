@@ -18,15 +18,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-<<<<<<< HEAD
+
 // Set Handlebars.
 var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-=======
 
->>>>>>> 8f512bee6ffe51f86bb9b1518a0b0f95d18b73bb
 
 // Requiring our routes
 require("./routes/api-routes.js")(app);
