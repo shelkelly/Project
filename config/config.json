@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "E122w920!",
-    "database": "top_booksdb",
+    "database": "books",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
