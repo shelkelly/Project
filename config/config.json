@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "E122w920!",
-    "database": "top_booksdb",
+    "password": "Pearmain4405$",
+    "database": "books",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
