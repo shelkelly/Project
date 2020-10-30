@@ -9,7 +9,7 @@ opacity: 0.5;
 }
 
 
-.row {
+row {
   padding: 10px;
   margin: 10px;
 }
@@ -33,13 +33,27 @@ opacity: 0.5;
   background-color: none;
   
 }
-.p {
-font-size: 20px;
+
+
+.col-sm-8 {
+  background-color:none;
 
 
 }
-card-group {
+/* .p {
+font-size: 50px;
+
+
+}
+.card {
+  position: bottom;
   align-content: center;
-
+  background-color: rgba(245, 245, 245, 0.4); }
+.card-header, .card-footer { opacity: 1}
+  .card-text: color: black;
 }
 
+.card-text{
+  color: black;
+}
+ */
