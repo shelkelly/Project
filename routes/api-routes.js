@@ -17,7 +17,7 @@ module.exports = function(app) {
     const term = req.params.term.toLowerCase()
     db.book.findAll({where:{
       [Op.or]:{
-      authors: sequelize.where(sequelize.fn('LOWER', sequelize.col('authors')), 'LIKE','%'+term+'%'),
+      author: sequelize.where(sequelize.fn('LOWER', sequelize.col('author')), 'LIKE','%'+term+'%'),
       title: sequelize.where(sequelize.fn('LOWER', sequelize.col('title')), 'LIKE','%'+term+'%')}
     }})
     .then(results=>res.json(results))
