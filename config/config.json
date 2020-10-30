@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Pearmain4405$",
-    "database": "books",
-    "host": "127.0.0.1",
+    "username": "u0pvz1vfxo6cwv4d",
+    "password": "xdb5vkm2so6x8uli",
+    "database": "g1qmbday2e3e3l1t",
+    "host": "z8dl7f9kwf2g82re.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {

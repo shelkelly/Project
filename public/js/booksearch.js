@@ -1,5 +1,6 @@
 var data = [];
 var booksContainer = $(".card");
+
 $(document).ready(function () {
     //reference to input field where user searches for a book
     var searchbarInput = $("#search");
@@ -19,3 +20,4 @@ $(document).ready(function () {
         })
     }
 });
+
