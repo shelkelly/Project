@@ -10,6 +10,7 @@ $(document).ready(function () {
         //function for getting search terms from the database
         $.get("/api/search/" + searchbarInput.val().trim(), function(data) {
             console.log(data);
+            $('#book-area').empty();
             const bookHolder = $("<div class='row'>")
             data.map(book=>{
               return $(bookHolder).append(`<div class="col-sm-6"><img src="${book.small_image_url}"><h3>${book.title}</h3>${book.author}</div>`)
