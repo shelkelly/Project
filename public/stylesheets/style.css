@@ -58,7 +58,34 @@ font-size: 50px;
 }
  */
 
- .col-sm-6 {
+ .col-sm-4 {
    background-color: beige;
-   
+   margin: 5px;
+   border: 1px solid black;
+   align-items:  center;
  }
+
+ #book-area {
+   overflow: auto;
+   height: 600px;
+ }
+
+ /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
