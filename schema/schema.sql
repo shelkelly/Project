@@ -1,5 +1,1 @@
-
-CREATE database books;
-
-
-SELECT * FROM books;
+SELECT * FROM kqx619cnz4yu5g4m.books;
