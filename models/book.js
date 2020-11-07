@@ -7,9 +7,11 @@
 module.exports = function(sequelize, DataTypes){
 var Book = sequelize.define("book", {
     title: DataTypes.STRING,
-    author: DataTypes.STRING,
+    authors: DataTypes.STRING,
     small_image_url: DataTypes.STRING
-  });
+  }, {
+    timestamps: false
+});
 
 return Book
   //Book.sync();
