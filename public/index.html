@@ -12,6 +12,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/1a20d7e811.js" crossorigin="anonymous"></script>
 
@@ -34,17 +35,21 @@
   </div>
     <div class="container">
 
+    <div class="col-sm-6">Search by title or author, and reveal like books to find your next great read.</div>
+
+    <div class="col-sm-6" id="form">
       <form>
-        <label for="search">Search:</label><br>
+
         <input type="text" id="search"  ><br>
                 <input type="submit" value="Submit">
 
       </form> 
+    </div>
    
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <h2>Popular Book Titles</h2>
+          <p><h2 id="titles">Book Titles</h2>
           <hr>
           <div id="book-area"></div>
         </div>
