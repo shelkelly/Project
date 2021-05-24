@@ -15,12 +15,16 @@ row {
 }
 
 .jumbotron {
-  font-family: 'Merriweather', serif;
+  font-family: 'Grand Hotel', cursive;
   color:black;
-  font-size: 100px;
+  font-size: 64px;
   border-color: none;
   text-align: center;
   font-size: 125px;
+  }
+
+  h2 {
+    font-family: 'Grand Hotel', cursive;
   }
 
     
@@ -40,17 +44,18 @@ row {
   margin: 20px;
   padding: 10px;
   background-color: rgb(245, 245, 220, 0.5);
-  box-shadow: 3px 3px 3px rgb(151, 151, 116);
+  box-shadow: 5px 5px 5px rgb(41, 41, 39);
+  border-radius: 10px;
 }
 
 #titles {
-  font-family: 'Merriweather', serif;
-  font-size: 36;
+  font-family: 'Grand Hotel', cursive;
+  text-align: center;
 }
 
 .col-sm-8 {
   background-color:none;
-
+  text-align: center;
 
 }
 /* .p {
@@ -81,9 +86,9 @@ font-size: 50px;
    background-color: beige;
    margin: 5px;
    padding: 5px;
-   border: 1px solid black;
    border-radius: 10px;
    align-items: center;
+   box-shadow: 5px 5px 5px rgb(41, 41, 39);
  }
 
  #book-area {
@@ -91,6 +96,7 @@ font-size: 50px;
    height: 600px;
    margin: 10px;
    padding: 10px;
+   background-color: rgb(245, 245, 220, 0.5);
  }
 
  /* width */
@@ -111,4 +117,43 @@ font-size: 50px;
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+
+
+/* FADE IN IMAGE */
+
+
+#searchItem {
+  margin: 5%;
+  padding: 1%;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
